@@ -2,7 +2,10 @@ import tami_data from "../tami-data.json";
 import xabi_data from "../xabi-data.json";
 
 export default function SongList({ week, person }) {
-    const weekKey = week.toLowerCase() === "extravaganza" ? "Extravaganza Week" : `Week ${week}`;
+    const weekKey = typeof week === "string" && week.toLowerCase() === "extravaganza" 
+        ? "Extravaganza Week" 
+        : `Week ${week}`;
+
     let weekData = [];
     if (person === "tami") {
         weekData = tami_data.find(item => item[weekKey]);
