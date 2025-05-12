@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tami-song-tracker/static/css/main.5ca85dc6.css",
+    "main.js": "/tami-song-tracker/static/js/main.bc848ad3.js",
+    "index.html": "/tami-song-tracker/index.html",
+    "main.5ca85dc6.css.map": "/tami-song-tracker/static/css/main.5ca85dc6.css.map",
+    "main.bc848ad3.js.map": "/tami-song-tracker/static/js/main.bc848ad3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ca85dc6.css",
+    "static/js/main.bc848ad3.js"
+  ]
+}
