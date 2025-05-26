@@ -19,12 +19,17 @@ export default function Header({ week, changeWeek }) {
 
     return (
         <header ref={headerRef}>
-            {data.map((weekData, index) => (
-                <p key={index} onClick={() => closeHeader(index + 1)}>
-                    {Object.keys(weekData)[0]}
-                </p>
-            ))}
-            <h3 onClick={openHeader}>Week {week}</h3>
+            {data.map((weekData, index) => {
+                const weekKey = Object.keys(weekData)[0]; // Get the key for the current week
+                return (
+                    <p key={index} onClick={() => closeHeader(weekKey)}>
+                        {weekKey}
+                    </p>
+                );
+            })}
+            <h3 onClick={openHeader}>
+                {week}
+            </h3>
         </header>
     );
 }

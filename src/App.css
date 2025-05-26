@@ -47,7 +47,7 @@ header > p {
 
 header > h3 {
   position: relative;
-  bottom: -36vh;
+  bottom: -23vh;
   cursor: pointer;
   user-select: none;
 }
