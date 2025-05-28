@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/tami-song-tracker/static/css/main.dcdea6dd.css",
-    "main.js": "/tami-song-tracker/static/js/main.a72f5f73.js",
+    "main.css": "/tami-song-tracker/static/css/main.55355358.css",
+    "main.js": "/tami-song-tracker/static/js/main.4baa0a37.js",
     "index.html": "/tami-song-tracker/index.html",
-    "main.dcdea6dd.css.map": "/tami-song-tracker/static/css/main.dcdea6dd.css.map",
-    "main.a72f5f73.js.map": "/tami-song-tracker/static/js/main.a72f5f73.js.map"
+    "main.55355358.css.map": "/tami-song-tracker/static/css/main.55355358.css.map",
+    "main.4baa0a37.js.map": "/tami-song-tracker/static/js/main.4baa0a37.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcdea6dd.css",
-    "static/js/main.a72f5f73.js"
+    "static/css/main.55355358.css",
+    "static/js/main.4baa0a37.js"
   ]
 }
