@@ -15,9 +15,8 @@
 }
 
 header {
-  background:linear-gradient(to bottom right, orange, rgb(255, 187, 0));
   width: 100vw;
-  height: 100vh;
+  height: 13vh;
 
   display: flex;
   align-items: center;
@@ -28,28 +27,15 @@ header {
   top: 0;
   left: 0;
 
-  font-size: 7vw;
+  font-size: 3.5vh;
   font-weight: bold;
   transition: ease-in-out 0.2s;
 }
 
-@media only screen and (min-width: 1000px) {
-  header {
-    font-size: 40px;
-  }
-}
-
-header > p {
-  margin: 2vh;
-  cursor: pointer;
-  user-select: none;
-}
-
-header > h3 {
-  position: relative;
-  bottom: -23vh;
-  cursor: pointer;
-  user-select: none;
+header > select {
+  font-size: 2vh;
+  background-color: transparent;
+  border: 0;
 }
 
 /* --- SongList --- */
