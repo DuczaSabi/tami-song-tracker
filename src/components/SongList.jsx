@@ -11,7 +11,7 @@ export default function SongList({ week, person }) {
             {songs.length > 0 ? (
                 songs.map((song, index) => (
                     <div key={index} className="song">
-                        <img src={`${process.env.PUBLIC_URL}/images/${song}.jpeg`} alt={song} />
+                        <img src={`${process.env.PUBLIC_URL}/images/${song}.jpeg`} />
                         <p>{song}</p>
                     </div>
                 ))
