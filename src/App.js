@@ -4,7 +4,7 @@ import Header from './components/Header';
 import SongList from './components/SongList';
 
 function App() {
-  const [week, setWeek] = useState(1);
+  const [week, setWeek] = useState("Week 1");
 
   return (
     <div className="App">

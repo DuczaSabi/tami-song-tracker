@@ -2,10 +2,7 @@ import tami_data from "../tami-data.json";
 import xabi_data from "../xabi-data.json";
 
 export default function SongList({ week, person }) {
-    // Determine which dataset to use based on the person
     const data = person === "tami" ? tami_data : xabi_data;
-
-    // Find the week data using the week key
     const weekData = data.find(item => item[week]) || {};
     const songs = weekData[week] || [];
 
@@ -19,7 +16,7 @@ export default function SongList({ week, person }) {
                     </div>
                 ))
             ) : (
-                <p>No songs available for {week}</p>
+                <></>
             )}
         </div>
     );

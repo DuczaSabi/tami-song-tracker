@@ -1,7 +1,7 @@
 import { useRef, useEffect } from "react";
 import data from "../tami-data.json";
 
-export default function Header({ week, changeWeek }) {
+export default function Header({ changeWeek }) {
     const headerRef = useRef(null);
 
     useEffect(() => {
