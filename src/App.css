@@ -38,6 +38,14 @@ header > select {
   border: 0;
 }
 
+header > .stats-icon {
+  width: 5vh;
+  position: fixed;
+  top: 4vh;
+  right: 3vh;
+  cursor: pointer;
+}
+
 /* --- SongList --- */
 .song-list {
   display: inline-block;
@@ -60,8 +68,19 @@ header > select {
   user-select: none;
 }
 
-.song-list p {
-  display: inline;
+.song-details {
   width: 50%;
-  font-size: 1.6vh;
+}
+
+.song-list h3 {
+  display: block;
+  font-size: 1.7vh;
+  margin-top: -1vh;
+}
+
+.song-list p {
+  display: block;
+  font-size: 1.1vh;
+  margin-top: 0.5vh;
+  opacity: 0.6;
 }

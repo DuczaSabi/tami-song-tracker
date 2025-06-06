@@ -11,12 +11,24 @@ export default function SongList({ week, person }) {
             {songs.length > 0 ? (
                 songs.map((song, index) => (
                     <div key={index} className="song">
-                        <img src={`${process.env.PUBLIC_URL}/images/${song}.jpeg`} />
-                        <p>{song}</p>
+                        <img
+                            src={`${process.env.PUBLIC_URL}/images/${song.title}.jpeg`}
+                        />
+                        <div className="song-details">
+                            <h3>{song.title}</h3>
+                            <p>
+                                {song.artist.map((artist, index) =>
+                                    index === 0
+                                        ? artist
+                                        : `, ${artist}`
+                                    )
+                                }
+                            </p>
+                        </div>
                     </div>
                 ))
             ) : (
-                <></>
+                <p>No songs available for {week}</p>
             )}
         </div>
     );

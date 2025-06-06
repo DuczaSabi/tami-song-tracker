@@ -1,13 +1,542 @@
 [
-    {"Week 1": ["In The Night", "Tropical Therapy", "Barricades", "Change Your Mind", "Without You", "Polaroid Love", "Half Empty" ]},
-    {"Week 2": ["PMA (feat. Pale Waves)", "Renegades", "still feel.", "Abyss - from Kaiju No. 8", "The Less I Know The Better", "Feelings", "On the Level"]},
-    {"Week 3": ["SuperFine", "No Time to Explain", "BTBT", "Follow", "Metamodernity", "I Really Want to Stay at Your House", "Spark"]},
-    {"Week 4": ["At the Airport Terminal", "+Matter", "Sweet Tooth", "Habit", "Ember", "Stones (feat. Daniel Schulz)", "TOMBI"]},
-    {"Week 5": ["Azizam", "Calico", "Selfish", "This Time", "Michel", "Talk to You", "Tangerine"]},
-    {"Week 6": ["Geronimo", "Take Me First", "On My Own", "The Feels", "In The City", "Stars In The Sky", "Love Lee"]},
-    {"Week 7": ["LAY YOUR HANDS ON ME", "Love Back", "Onderweg Naar Later", "A Thousand Bad Times", "SPEAK UP", "Tonight", "Love Me Like This"]},
-    {"Extravaganza Week 1": ["PMA (feat. Pale Waves)", "LAY YOUR HANDS ON ME", "In The Night", "Geronimo", "SuperFine", "Azizam", "At the Airport Terminal"]},
-    {"Week 8": ["Apollo", "Waterfall", "PULL ME", "Hold On Tight", "Let Me Let You Go", "Dead End In Tokyo", "Mikrokosmos"]},
-    {"Week 9": ["Sweet Chaos", "Horizons", "Sleepwalking", "Vengeance", "Whiplash", "Distracted", "Nowhere (VIVINOS)"]},
-    {"Week 10": ["can't slow down", "Instant Crush", "On Melancholy Hill", "Greek Tragedy", "RED ", "HATE TO TRY", "In The Garage"]}
+    { "Week 1": [
+        {
+            "title": "In The Night",
+            "artist": ["Fly By Midnight"],
+            "spotify": "https://open.spotify.com/artist/59oA5WbbQvomJz2BuRG071",
+            "youtube": "https://www.youtube.com/watch?v=q3lX2p_Uy9I"
+        },
+        {
+            "title": "Tropical Therapy",
+            "artist": ["ONE OK ROCK"],
+            "spotify": "https://open.spotify.com/track/72VH13PSrYh963lzB5NzG4",
+            "youtube": "https://www.youtube.com/watch?v=nEjLFpU2pJ4"
+        },
+        {
+            "title": "Barricades",
+            "artist": ["Sawano Hiroyuki"],
+            "spotify": "https://open.spotify.com/track/5F6E3zZ3s1h0eJcFz9Zp0Q",
+            "youtube": "https://www.youtube.com/watch?v=oR8Qe6lX7vc"
+        },
+        {
+            "title": "Change Your Mind",
+            "artist": ["Knox"],
+            "spotify": "https://open.spotify.com/track/5yOdZdVkh31ZKLSNf45Toh",
+            "youtube": "https://www.youtube.com/watch?v=LNspdr44k0w"
+        },
+        {
+            "title": "Without You",
+            "artist": ["RIDERS"],
+            "spotify": "https://open.spotify.com/track/5L95vS64rG1YMIFm1hLjyZ",
+            "youtube": "https://www.youtube.com/watch?v=ldk2pLyVZ4c"
+        },
+        {
+            "title": "Polaroid Love",
+            "artist": ["ENHYPEN"],
+            "spotify": "https://open.spotify.com/track/3sNVsP50132BTNlImLx70i",
+            "youtube": "https://www.youtube.com/watch?v=LO2RPDZkY88"
+        },
+        {
+            "title": "Half Empty",
+            "artist": ["State Champs", "Chrissy Costanza"],
+            "spotify": "https://open.spotify.com/track/5aNF9DRTzNXt5uRv141mQ6",
+            "youtube": "https://www.youtube.com/watch?v=UOM8egI348I"
+        }
+        ]
+    },
+    { "Week 2": [
+        {
+            "title": "PMA",
+            "artist": ["All Time Low", "Pale Waves"],
+            "spotify": "https://open.spotify.com/artist/59oA5WbbQvomJz2BuRG071",
+            "youtube": "https://www.youtube.com/watch?v=q3lX2p_Uy9I"
+        },
+        {
+            "title": "Renegades",
+            "artist": ["ONE OK ROCK"],
+            "spotify": "https://open.spotify.com/track/72VH13PSrYh963lzB5NzG4",
+            "youtube": "https://www.youtube.com/watch?v=nEjLFpU2pJ4"
+        },
+        {
+            "title": "still feel.",
+            "artist": ["half alive"],
+            "spotify": "https://open.spotify.com/track/5F6E3zZ3s1h0eJcFz9Zp0Q",
+            "youtube": "https://www.youtube.com/watch?v=oR8Qe6lX7vc"
+        },
+        {
+            "title": "Abyss - from Kaiju No. 8",
+            "artist": ["YUNGBLUD"],
+            "spotify": "https://open.spotify.com/track/5yOdZdVkh31ZKLSNf45Toh",
+            "youtube": "https://www.youtube.com/watch?v=LNspdr44k0w"
+        },
+        {
+            "title": "The Less I Know The Better",
+            "artist": ["Tame Impala"],
+            "spotify": "https://open.spotify.com/track/5L95vS64rG1YMIFm1hLjyZ",
+            "youtube": "https://www.youtube.com/watch?v=ldk2pLyVZ4c"
+        },
+        {
+            "title": "Feelings",
+            "artist": ["Lauv"],
+            "spotify": "https://open.spotify.com/track/3sNVsP50132BTNlImLx70i",
+            "youtube": "https://www.youtube.com/watch?v=LO2RPDZkY88"
+        },
+        {
+            "title": "On the Level",
+            "artist": ["Mac DeMarco"],
+            "spotify": "https://open.spotify.com/track/5aNF9DRTzNXt5uRv141mQ6",
+            "youtube": "https://www.youtube.com/watch?v=UOM8egI348I"
+        }
+        ]
+    },
+    { "Week 3": [
+        {
+            "title": "SuperFine",
+            "artist": ["Fly By Midnight"],
+            "spotify": "https://open.spotify.com/artist/59oA5WbbQvomJz2BuRG071",
+            "youtube": "https://www.youtube.com/watch?v=q3lX2p_Uy9I"
+        },
+        {
+            "title": "No Time To Explain",
+            "artist": ["Good Kid"],
+            "spotify": "https://open.spotify.com/track/72VH13PSrYh963lzB5NzG4",
+            "youtube": "https://www.youtube.com/watch?v=nEjLFpU2pJ4"
+        },
+        {
+            "title": "BTBT",
+            "artist": ["B.I", "Soulja Boy", "DeVita"],
+            "spotify": "https://open.spotify.com/track/5F6E3zZ3s1h0eJcFz9Zp0Q",
+            "youtube": "https://www.youtube.com/watch?v=oR8Qe6lX7vc"
+        },
+        {
+            "title": "Follow",
+            "artist": ["Survive Said The Prophet"],
+            "spotify": "https://open.spotify.com/track/5yOdZdVkh31ZKLSNf45Toh",
+            "youtube": "https://www.youtube.com/watch?v=LNspdr44k0w"
+        },
+        {
+            "title": "Metamodernity",
+            "artist": ["Vansire"],
+            "spotify": "https://open.spotify.com/track/5L95vS64rG1YMIFm1hLjyZ",
+            "youtube": "https://www.youtube.com/watch?v=ldk2pLyVZ4c"
+        },
+        {
+            "title": "I Really Want to Stay at Your House",
+            "artist": ["Samuel Kim", "Lorien"],
+            "spotify": "https://open.spotify.com/track/3sNVsP50132BTNlImLx70i",
+            "youtube": "https://www.youtube.com/watch?v=LO2RPDZkY88"
+        },
+        {
+            "title": "Spark",
+            "artist": ["Ed Sheeran"],
+            "spotify": "https://open.spotify.com/track/5aNF9DRTzNXt5uRv141mQ6",
+            "youtube": "https://www.youtube.com/watch?v=UOM8egI348I"
+        }
+        ]
+    },
+    { "Week 4": [
+        {
+            "title": "At the Airport Terminal",
+            "artist": ["Bill Wurtz"],
+            "spotify": "https://open.spotify.com/artist/59oA5WbbQvomJz2BuRG071",
+            "youtube": "https://www.youtube.com/watch?v=q3lX2p_Uy9I"
+        },
+        {
+            "title": "+Matter",
+            "artist": ["ONE OK ROCK"],
+            "spotify": "https://open.spotify.com/track/72VH13PSrYh963lzB5NzG4",
+            "youtube": "https://www.youtube.com/watch?v=nEjLFpU2pJ4"
+        },
+        {
+            "title": "Sweet Tooth",
+            "artist": ["Scott Helman"],
+            "spotify": "https://open.spotify.com/track/5F6E3zZ3s1h0eJcFz9Zp0Q",
+            "youtube": "https://www.youtube.com/watch?v=oR8Qe6lX7vc"
+        },
+        {
+            "title": "Habit",
+            "artist": ["SEKAI NO OWARI"],
+            "spotify": "https://open.spotify.com/track/5yOdZdVkh31ZKLSNf45Toh",
+            "youtube": "https://www.youtube.com/watch?v=LNspdr44k0w"
+        },
+        {
+            "title": "Ember",
+            "artist": ["Katherine McNamara"],
+            "spotify": "https://open.spotify.com/track/5L95vS64rG1YMIFm1hLjyZ",
+            "youtube": "https://www.youtube.com/watch?v=ldk2pLyVZ4c"
+        },
+        {
+            "title": "Stones",
+            "artist": ["Christopher", "Daniel Schulz"],
+            "spotify": "https://open.spotify.com/track/3sNVsP50132BTNlImLx70i",
+            "youtube": "https://www.youtube.com/watch?v=LO2RPDZkY88"
+        },
+        {
+            "title": "TOMBI",
+            "artist": ["Kvi Baba"],
+            "spotify": "https://open.spotify.com/track/5aNF9DRTzNXt5uRv141mQ6",
+            "youtube": "https://www.youtube.com/watch?v=UOM8egI348I"
+        }
+        ]
+    },
+    { "Week 5": [
+        {
+            "title": "Azizam",
+            "artist": ["Ed Sheeran"],
+            "spotify": "https://open.spotify.com/artist/59oA5WbbQvomJz2BuRG071",
+            "youtube": "https://www.youtube.com/watch?v=q3lX2p_Uy9I"
+        },
+        {
+            "title": "Calico",
+            "artist": ["DPR IAN"],
+            "spotify": "https://open.spotify.com/track/72VH13PSrYh963lzB5NzG4",
+            "youtube": "https://www.youtube.com/watch?v=nEjLFpU2pJ4"
+        },
+        {
+            "title": "Selfish",
+            "artist": ["Justin Timberlake"],
+            "spotify": "https://open.spotify.com/track/5F6E3zZ3s1h0eJcFz9Zp0Q",
+            "youtube": "https://www.youtube.com/watch?v=oR8Qe6lX7vc"
+        },
+        {
+            "title": "This Time",
+            "artist": ["Arrows in Action"],
+            "spotify": "https://open.spotify.com/track/5yOdZdVkh31ZKLSNf45Toh",
+            "youtube": "https://www.youtube.com/watch?v=LNspdr44k0w"
+        },
+        {
+            "title": "Michel",
+            "artist": ["Cécile Hercule"],
+            "spotify": "https://open.spotify.com/track/5L95vS64rG1YMIFm1hLjyZ",
+            "youtube": "https://www.youtube.com/watch?v=ldk2pLyVZ4c"
+        },
+        {
+            "title": "Talk to You",
+            "artist": ["Ricky Montgomery"],
+            "spotify": "https://open.spotify.com/track/3sNVsP50132BTNlImLx70i",
+            "youtube": "https://www.youtube.com/watch?v=LO2RPDZkY88"
+        },
+        {
+            "title": "Tangerine",
+            "artist": ["Glass Animals"],
+            "spotify": "https://open.spotify.com/track/5aNF9DRTzNXt5uRv141mQ6",
+            "youtube": "https://www.youtube.com/watch?v=UOM8egI348I"
+        }
+        ]
+    },
+    { "Week 6": [
+        {
+            "title": "Geronimo",
+            "artist": ["Sheppard"],
+            "spotify": "https://open.spotify.com/artist/59oA5WbbQvomJz2BuRG071",
+            "youtube": "https://www.youtube.com/watch?v=q3lX2p_Uy9I"
+        },
+        {
+            "title": "Take Me First",
+            "artist": ["Bad Omens"],
+            "spotify": "https://open.spotify.com/track/72VH13PSrYh963lzB5NzG4",
+            "youtube": "https://www.youtube.com/watch?v=nEjLFpU2pJ4"
+        },
+        {
+            "title": "On My Own",
+            "artist": ["Patti LaBelle", "Michael McDonald"],
+            "spotify": "https://open.spotify.com/track/5F6E3zZ3s1h0eJcFz9Zp0Q",
+            "youtube": "https://www.youtube.com/watch?v=oR8Qe6lX7vc"
+        },
+        {
+            "title": "The Feels",
+            "artist": ["TWICE"],
+            "spotify": "https://open.spotify.com/track/5yOdZdVkh31ZKLSNf45Toh",
+            "youtube": "https://www.youtube.com/watch?v=LNspdr44k0w"
+        },
+        {
+            "title": "In The City",
+            "artist": ["Joe Walsh"],
+            "spotify": "https://open.spotify.com/track/5L95vS64rG1YMIFm1hLjyZ",
+            "youtube": "https://www.youtube.com/watch?v=ldk2pLyVZ4c"
+        },
+        {
+            "title": "Stars In The Sky",
+            "artist": ["Kid Cudi"],
+            "spotify": "https://open.spotify.com/track/3sNVsP50132BTNlImLx70i",
+            "youtube": "https://www.youtube.com/watch?v=LO2RPDZkY88"
+        },
+        {
+            "title": "Love Lee",
+            "artist": ["AKMU"],
+            "spotify": "https://open.spotify.com/track/5aNF9DRTzNXt5uRv141mQ6",
+            "youtube": "https://www.youtube.com/watch?v=UOM8egI348I"
+        }
+        ]
+    },
+    { "Week 7": [
+        {
+            "title": "LAY YOUR HANDS ON ME",
+            "artist": ["BOOM BOOM SATELLITES"],
+            "spotify": "https://open.spotify.com/artist/59oA5WbbQvomJz2BuRG071",
+            "youtube": "https://www.youtube.com/watch?v=q3lX2p_Uy9I"
+        },
+        {
+            "title": "Love Back",
+            "artist": ["Why Don't We"],
+            "spotify": "https://open.spotify.com/track/72VH13PSrYh963lzB5NzG4",
+            "youtube": "https://www.youtube.com/watch?v=nEjLFpU2pJ4"
+        },
+        {
+            "title": "Onderweg Naar Later",
+            "artist": ["Suzan & Freek"],
+            "spotify": "https://open.spotify.com/track/5F6E3zZ3s1h0eJcFz9Zp0Q",
+            "youtube": "https://www.youtube.com/watch?v=oR8Qe6lX7vc"
+        },
+        {
+            "title": "A Thousand Bad Times",
+            "artist": ["Post Malone"],
+            "spotify": "https://open.spotify.com/track/5yOdZdVkh31ZKLSNf45Toh",
+            "youtube": "https://www.youtube.com/watch?v=LNspdr44k0w"
+        },
+        {
+            "title": "SPEAK UP",
+            "artist": ["NOISEMAKER"],
+            "spotify": "https://open.spotify.com/track/5L95vS64rG1YMIFm1hLjyZ",
+            "youtube": "https://www.youtube.com/watch?v=ldk2pLyVZ4c"
+        },
+        {
+            "title": "Tonight",
+            "artist": ["Phoenix", "Ezra Koenig"],
+            "spotify": "https://open.spotify.com/track/3sNVsP50132BTNlImLx70i",
+            "youtube": "https://www.youtube.com/watch?v=LO2RPDZkY88"
+        },
+        {
+            "title": "Love Me Like This",
+            "artist": ["NMIXX"],
+            "spotify": "https://open.spotify.com/track/5aNF9DRTzNXt5uRv141mQ6",
+            "youtube": "https://www.youtube.com/watch?v=UOM8egI348I"
+        }
+        ]
+    },
+    { "Extravaganza Week 1": [
+        {
+            "title": "PMA",
+            "artist": ["All Time Low", "Pale Waves"],
+            "spotify": "https://open.spotify.com/artist/59oA5WbbQvomJz2BuRG071",
+            "youtube": "https://www.youtube.com/watch?v=q3lX2p_Uy9I"
+        },
+        {
+            "title": "LAY YOUR HANDS ON ME",
+            "artist": ["BOOM BOOM SATELLITES"],
+            "spotify": "https://open.spotify.com/track/72VH13PSrYh963lzB5NzG4",
+            "youtube": "https://www.youtube.com/watch?v=nEjLFpU2pJ4"
+        },
+        {
+            "title": "In The Night",
+            "artist": ["Fly By Midnight"],
+            "spotify": "https://open.spotify.com/track/5F6E3zZ3s1h0eJcFz9Zp0Q",
+            "youtube": "https://www.youtube.com/watch?v=oR8Qe6lX7vc"
+        },
+        {
+            "title": "Geronimo",
+            "artist": ["Sheppard"],
+            "spotify": "https://open.spotify.com/track/5yOdZdVkh31ZKLSNf45Toh",
+            "youtube": "https://www.youtube.com/watch?v=LNspdr44k0w"
+        },
+        {
+            "title": "SuperFine",
+            "artist": ["Fly By Midnight"],
+            "spotify": "https://open.spotify.com/track/5L95vS64rG1YMIFm1hLjyZ",
+            "youtube": "https://www.youtube.com/watch?v=ldk2pLyVZ4c"
+        },
+        {
+            "title": "Azizam",
+            "artist": ["Ed Sheeran"],
+            "spotify": "https://open.spotify.com/track/3sNVsP50132BTNlImLx70i",
+            "youtube": "https://www.youtube.com/watch?v=LO2RPDZkY88"
+        },
+        {
+            "title": "At the Airport Terminal",
+            "artist": ["Bill Wurtz"],
+            "spotify": "https://open.spotify.com/track/5aNF9DRTzNXt5uRv141mQ6",
+            "youtube": "https://www.youtube.com/watch?v=UOM8egI348I"
+        }
+        ]
+    },
+    { "Week 8": [
+        {
+            "title": "Apollo",
+            "artist": ["Last Dinosaurs"],
+            "spotify": "https://open.spotify.com/artist/59oA5WbbQvomJz2BuRG071",
+            "youtube": "https://www.youtube.com/watch?v=q3lX2p_Uy9I"
+        },
+        {
+            "title": "Waterfall",
+            "artist": ["Michael Schulte", "R3HAB"],
+            "spotify": "https://open.spotify.com/track/72VH13PSrYh963lzB5NzG4",
+            "youtube": "https://www.youtube.com/watch?v=nEjLFpU2pJ4"
+        },
+        {
+            "title": "PULL ME",
+            "artist": ["KAYDEN"],
+            "spotify": "https://open.spotify.com/track/5F6E3zZ3s1h0eJcFz9Zp0Q",
+            "youtube": "https://www.youtube.com/watch?v=oR8Qe6lX7vc"
+        },
+        {
+            "title": "Hold On Tight",
+            "artist": ["aespa"],
+            "spotify": "https://open.spotify.com/track/5yOdZdVkh31ZKLSNf45Toh",
+            "youtube": "https://www.youtube.com/watch?v=LNspdr44k0w"
+        },
+        {
+            "title": "Let Me Let You Go",
+            "artist": ["ONE OK ROCK"],
+            "spotify": "https://open.spotify.com/track/5L95vS64rG1YMIFm1hLjyZ",
+            "youtube": "https://www.youtube.com/watch?v=ldk2pLyVZ4c"
+        },
+        {
+            "title": "Dead End In Tokyo",
+            "artist": ["MAN WITH A MISSION"],
+            "spotify": "https://open.spotify.com/track/3sNVsP50132BTNlImLx70i",
+            "youtube": "https://www.youtube.com/watch?v=LO2RPDZkY88"
+        },
+        {
+            "title": "Mikrokosmos",
+            "artist": ["BTS"],
+            "spotify": "https://open.spotify.com/track/5aNF9DRTzNXt5uRv141mQ6",
+            "youtube": "https://www.youtube.com/watch?v=UOM8egI348I"
+        }
+        ]
+    },
+    { "Week 9": [
+        {
+            "title": "Sweet Chaos",
+            "artist": ["DAY6"],
+            "spotify": "https://open.spotify.com/artist/59oA5WbbQvomJz2BuRG071",
+            "youtube": "https://www.youtube.com/watch?v=q3lX2p_Uy9I"
+        },
+        {
+            "title": "Horizons",
+            "artist": ["Gus Dapperton"],
+            "spotify": "https://open.spotify.com/track/72VH13PSrYh963lzB5NzG4",
+            "youtube": "https://www.youtube.com/watch?v=nEjLFpU2pJ4"
+        },
+        {
+            "title": "Sleepwalking",
+            "artist": ["All Time Low"],
+            "spotify": "https://open.spotify.com/track/5F6E3zZ3s1h0eJcFz9Zp0Q",
+            "youtube": "https://www.youtube.com/watch?v=oR8Qe6lX7vc"
+        },
+        {
+            "title": "Vengeance",
+            "artist": ["coldbrain"],
+            "spotify": "https://open.spotify.com/track/5yOdZdVkh31ZKLSNf45Toh",
+            "youtube": "https://www.youtube.com/watch?v=LNspdr44k0w"
+        },
+        {
+            "title": "Whiplash",
+            "artist": ["aespa"],
+            "spotify": "https://open.spotify.com/track/5L95vS64rG1YMIFm1hLjyZ",
+            "youtube": "https://www.youtube.com/watch?v=ldk2pLyVZ4c"
+        },
+        {
+            "title": "Distracted",
+            "artist": ["Honey Revenge"],
+            "spotify": "https://open.spotify.com/track/3sNVsP50132BTNlImLx70i",
+            "youtube": "https://www.youtube.com/watch?v=LO2RPDZkY88"
+        },
+        {
+            "title": "Nowhere (VIVINOS)",
+            "artist": ["PARK BYEONG HOON"],
+            "spotify": "https://open.spotify.com/track/5aNF9DRTzNXt5uRv141mQ6",
+            "youtube": "https://www.youtube.com/watch?v=UOM8egI348I"
+        }
+        ]
+    },
+    { "Week 10": [
+        {
+            "title": "can't slow down",
+            "artist": ["almost monday"],
+            "spotify": "https://open.spotify.com/artist/59oA5WbbQvomJz2BuRG071",
+            "youtube": "https://www.youtube.com/watch?v=q3lX2p_Uy9I"
+        },
+        {
+            "title": "Instant Crush",
+            "artist": ["Daft Punk", "Julian Casablancas"],
+            "spotify": "https://open.spotify.com/track/72VH13PSrYh963lzB5NzG4",
+            "youtube": "https://www.youtube.com/watch?v=nEjLFpU2pJ4"
+        },
+        {
+            "title": "On Melancholy Hill",
+            "artist": ["Gorillaz"],
+            "spotify": "https://open.spotify.com/track/5F6E3zZ3s1h0eJcFz9Zp0Q",
+            "youtube": "https://www.youtube.com/watch?v=oR8Qe6lX7vc"
+        },
+        {
+            "title": "Greek Tragedy",
+            "artist": ["The Wombats", "Oliver Nelson"],
+            "spotify": "https://open.spotify.com/track/5yOdZdVkh31ZKLSNf45Toh",
+            "youtube": "https://www.youtube.com/watch?v=LNspdr44k0w"
+        },
+        {
+            "title": "RED ",
+            "artist": ["Survive Said The Prophet"],
+            "spotify": "https://open.spotify.com/track/5L95vS64rG1YMIFm1hLjyZ",
+            "youtube": "https://www.youtube.com/watch?v=ldk2pLyVZ4c"
+        },
+        {
+            "title": "HATE TO TRY",
+            "artist": ["KAYDEN"],
+            "spotify": "https://open.spotify.com/track/3sNVsP50132BTNlImLx70i",
+            "youtube": "https://www.youtube.com/watch?v=LO2RPDZkY88"
+        },
+        {
+            "title": "In The Garage",
+            "artist": ["Weezer"],
+            "spotify": "https://open.spotify.com/track/5aNF9DRTzNXt5uRv141mQ6",
+            "youtube": "https://www.youtube.com/watch?v=UOM8egI348I"
+        }
+        ]
+    },
+    { "Week 11": [
+        {
+            "title": "Invisible Touch",
+            "artist": ["Genesis"],
+            "spotify": "https://open.spotify.com/artist/59oA5WbbQvomJz2BuRG071",
+            "youtube": "https://www.youtube.com/watch?v=q3lX2p_Uy9I"
+        },
+        {
+            "title": "Adiemus",
+            "artist": ["Karl Jenkins", "Mike Ratledge", "Jody K. Jenkins", "Adiemus", "London Philharmonic Orchestra", "Mary Carewe"],
+            "spotify": "https://open.spotify.com/track/5aNF9DRTzNXt5uRv141mQ6",
+            "youtube": "https://www.youtube.com/watch?v=UOM8egI348I"
+        },
+        {
+            "title": "Tell Me You Know",
+            "artist": ["Good Kid"],
+            "spotify": "https://open.spotify.com/track/5F6E3zZ3s1h0eJcFz9Zp0Q",
+            "youtube": "https://www.youtube.com/watch?v=oR8Qe6lX7vc"
+        },
+        {
+            "title": "I Don't Know Why",
+            "artist": ["NOTD", "Astrid S"],
+            "spotify": "https://open.spotify.com/track/72VH13PSrYh963lzB5NzG4",
+            "youtube": "https://www.youtube.com/watch?v=nEjLFpU2pJ4"
+        },
+        {
+            "title": "I Had Some Help",
+            "artist": ["Post Malone", "Morgan Wallen"],
+            "spotify": "https://open.spotify.com/track/5yOdZdVkh31ZKLSNf45Toh",
+            "youtube": "https://www.youtube.com/watch?v=LNspdr44k0w"
+        },
+        {
+            "title": "Ophelia",
+            "artist": ["The Lumineers"],
+            "spotify": "https://open.spotify.com/track/5L95vS64rG1YMIFm1hLjyZ",
+            "youtube": "https://www.youtube.com/watch?v=ldk2pLyVZ4c"
+        },
+        {
+            "title": "Losing You",
+            "artist": ["boy pablo"],
+            "spotify": "https://open.spotify.com/track/3sNVsP50132BTNlImLx70i",
+            "youtube": "https://www.youtube.com/watch?v=LO2RPDZkY88"
+        }
+        ]
+    }
 ]

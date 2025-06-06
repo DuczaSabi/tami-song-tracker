@@ -1,13 +1,542 @@
-[
-    {"Week 1": ["Jungle", "Shout", "Everlasting Love", "Fire Alarm", "Rollercoaster", "Go", "Questions (feat. Boy Matthews)" ]},
-    {"Week 2": ["The Hype", "Antisocial Socialites", "Volcano", "Magic Man", "Dermot (see yourself in my eyes)", "Lost The Breakup", "Untouched"]},
-    {"Week 3": ["Kickstart My Heart", "Siren sounds", "In The Heat Of The Night", "The Tortured Poets Department", "Where's Your Head", "Nothing Matters", "Cutting Shapes"]},
-    {"Week 4": ["Cheating", "Electric Touch (feat. Fall Out Boy)", "evergreen love", "Sweeter", "Come Back and Stay", "Sorry I'm here For Someone Else", "Won't Go Quietly"]},
-    {"Week 5": ["Libertine", "Kite", "Too Much", "All Too Well (10 Minute Version)", "On My Wave", "twilight zone", "Vulnerable"]},
-    {"Week 6": ["Satellite", "Memory Lane", "Duck Eat Duck World", "House On Fire", "back to friends", "Dreamcatcher", "Lullaby"]},
-    {"Week 7": ["Release Me", "What the Hell", "Tiny Moves", "Deliah", "Priceless", "Years In The Making", "Return of the Mack"]},
-    {"Extravaganza Week 1": ["The Hype", "Jungle", "Libertine", "Kickstart My Heart", "Release Me", "Cheating", "Satellite"]},
-    {"Week 8": ["West Ten", "A Neverending Dream", "Bad Girl", "Birch Tree", "Silence", "Homesick", "DESIRE"]},
-    {"Week 9": ["What You're Made Of", "Typhoons", "Hits Different", "You Need Me Now", "I Know A Place", "East Coast", "One Mississippi"]},
-    {"Week 10": ["If You Were a Woman", "Only The Young", "My Name Is Thunder", "undressed", "SUPERSCAR", "Mess It Up", "What Was That"]}
+[    
+    { "Week 1": [
+        {
+            "title": "Jungle",
+            "artist": ["Drew Sycamore"],
+            "spotify": "https://open.spotify.com/artist/59oA5WbbQvomJz2BuRG071",
+            "youtube": "https://www.youtube.com/watch?v=q3lX2p_Uy9I"
+        },
+        {
+            "title": "Shout",
+            "artist": ["Hero The Band"],
+            "spotify": "https://open.spotify.com/track/72VH13PSrYh963lzB5NzG4",
+            "youtube": "https://www.youtube.com/watch?v=nEjLFpU2pJ4"
+        },
+        {
+            "title": "Everlasting Love",
+            "artist": ["Sandra"],
+            "spotify": "https://open.spotify.com/track/5F6E3zZ3s1h0eJcFz9Zp0Q",
+            "youtube": "https://www.youtube.com/watch?v=oR8Qe6lX7vc"
+        },
+        {
+            "title": "Fire Alarm",
+            "artist": ["Castlecomer"],
+            "spotify": "https://open.spotify.com/track/5yOdZdVkh31ZKLSNf45Toh",
+            "youtube": "https://www.youtube.com/watch?v=LNspdr44k0w"
+        },
+        {
+            "title": "Rollercoaster",
+            "artist": ["Bleachers"],
+            "spotify": "https://open.spotify.com/track/5L95vS64rG1YMIFm1hLjyZ",
+            "youtube": "https://www.youtube.com/watch?v=ldk2pLyVZ4c"
+        },
+        {
+            "title": "Go",
+            "artist": ["The Chemical Brothers"],
+            "spotify": "https://open.spotify.com/track/3sNVsP50132BTNlImLx70i",
+            "youtube": "https://www.youtube.com/watch?v=LO2RPDZkY88"
+        },
+        {
+            "title": "Questions",
+            "artist": ["High Contrast", "Boy Matthews"],
+            "spotify": "https://open.spotify.com/track/5aNF9DRTzNXt5uRv141mQ6",
+            "youtube": "https://www.youtube.com/watch?v=UOM8egI348I"
+        }
+        ]
+    },
+    { "Week 2": [
+        {
+            "title": "The Hype",
+            "artist": ["Sigrid"],
+            "spotify": "https://open.spotify.com/artist/59oA5WbbQvomJz2BuRG071",
+            "youtube": "https://www.youtube.com/watch?v=q3lX2p_Uy9I"
+        },
+        {
+            "title": "Antisocial Socialites",
+            "artist": ["Kyan Palmer", "nicopop", "Yuri Joness"],
+            "spotify": "https://open.spotify.com/track/72VH13PSrYh963lzB5NzG4",
+            "youtube": "https://www.youtube.com/watch?v=nEjLFpU2pJ4"
+        },
+        {
+            "title": "Volcano",
+            "artist": ["Twin Atlantic"],
+            "spotify": "https://open.spotify.com/track/5F6E3zZ3s1h0eJcFz9Zp0Q",
+            "youtube": "https://www.youtube.com/watch?v=oR8Qe6lX7vc"
+        },
+        {
+            "title": "Magic Man",
+            "artist": ["The Sherlocks"],
+            "spotify": "https://open.spotify.com/track/5yOdZdVkh31ZKLSNf45Toh",
+            "youtube": "https://www.youtube.com/watch?v=LNspdr44k0w"
+        },
+        {
+            "title": "Dermot (see yourself in my eyes)",
+            "artist": ["Fred again..", "Dermot Kennedy"],
+            "spotify": "https://open.spotify.com/track/5L95vS64rG1YMIFm1hLjyZ",
+            "youtube": "https://www.youtube.com/watch?v=ldk2pLyVZ4c"
+        },
+        {
+            "title": "Lost The Breakup",
+            "artist": ["Maisie Peters"],
+            "spotify": "https://open.spotify.com/track/3sNVsP50132BTNlImLx70i",
+            "youtube": "https://www.youtube.com/watch?v=LO2RPDZkY88"
+        },
+        {
+            "title": "Untouched",
+            "artist": ["The Veronicas"],
+            "spotify": "https://open.spotify.com/track/5aNF9DRTzNXt5uRv141mQ6",
+            "youtube": "https://www.youtube.com/watch?v=UOM8egI348I"
+        }
+        ]
+    },
+    { "Week 3": [
+        {
+            "title": "Kickstart My Heart",
+            "artist": ["Mötley Crüe"],
+            "spotify": "https://open.spotify.com/artist/59oA5WbbQvomJz2BuRG071",
+            "youtube": "https://www.youtube.com/watch?v=q3lX2p_Uy9I"
+        },
+        {
+            "title": "Siren Sounds",
+            "artist": ["Tate McRae"],
+            "spotify": "https://open.spotify.com/track/72VH13PSrYh963lzB5NzG4",
+            "youtube": "https://www.youtube.com/watch?v=nEjLFpU2pJ4"
+        },
+        {
+            "title": "In The Heat Of The Night",
+            "artist": ["Sandra"],
+            "spotify": "https://open.spotify.com/track/5F6E3zZ3s1h0eJcFz9Zp0Q",
+            "youtube": "https://www.youtube.com/watch?v=oR8Qe6lX7vc"
+        },
+        {
+            "title": "The Tortured Poets Department",
+            "artist": ["Taylor Swift"],
+            "spotify": "https://open.spotify.com/track/5yOdZdVkh31ZKLSNf45Toh",
+            "youtube": "https://www.youtube.com/watch?v=LNspdr44k0w"
+        },
+        {
+            "title": "Where's Your Head",
+            "artist": ["NOISY"],
+            "spotify": "https://open.spotify.com/track/5L95vS64rG1YMIFm1hLjyZ",
+            "youtube": "https://www.youtube.com/watch?v=ldk2pLyVZ4c"
+        },
+        {
+            "title": "Nothing Matters",
+            "artist": ["The Last Dinner Party"],
+            "spotify": "https://open.spotify.com/track/3sNVsP50132BTNlImLx70i",
+            "youtube": "https://www.youtube.com/watch?v=LO2RPDZkY88"
+        },
+        {
+            "title": "Cutting Shapes",
+            "artist": ["Don Diablo"],
+            "spotify": "https://open.spotify.com/track/5aNF9DRTzNXt5uRv141mQ6",
+            "youtube": "https://www.youtube.com/watch?v=UOM8egI348I"
+        }
+        ]
+    },
+    { "Week 4": [
+        {
+            "title": "Cheating",
+            "artist": ["John Newman"],
+            "spotify": "https://open.spotify.com/artist/59oA5WbbQvomJz2BuRG071",
+            "youtube": "https://www.youtube.com/watch?v=q3lX2p_Uy9I"
+        },
+        {
+            "title": "Electric Touch",
+            "artist": ["Taylor Swift", "Fall Out Boy"],
+            "spotify": "https://open.spotify.com/track/72VH13PSrYh963lzB5NzG4",
+            "youtube": "https://www.youtube.com/watch?v=nEjLFpU2pJ4"
+        },
+        {
+            "title": "evergreen love",
+            "artist": ["Strings And Heart"],
+            "spotify": "https://open.spotify.com/track/5F6E3zZ3s1h0eJcFz9Zp0Q",
+            "youtube": "https://www.youtube.com/watch?v=oR8Qe6lX7vc"
+        },
+        {
+            "title": "Sweeter",
+            "artist": ["John Mark Pantana"],
+            "spotify": "https://open.spotify.com/track/5yOdZdVkh31ZKLSNf45Toh",
+            "youtube": "https://www.youtube.com/watch?v=LNspdr44k0w"
+        },
+        {
+            "title": "Come Back And Stay",
+            "artist": ["Bad Boys Blue"],
+            "spotify": "https://open.spotify.com/track/5L95vS64rG1YMIFm1hLjyZ",
+            "youtube": "https://www.youtube.com/watch?v=ldk2pLyVZ4c"
+        },
+        {
+            "title": "Sorry I'm here For Someone Else",
+            "artist": ["Benson Boone"],
+            "spotify": "https://open.spotify.com/track/3sNVsP50132BTNlImLx70i",
+            "youtube": "https://www.youtube.com/watch?v=LO2RPDZkY88"
+        },
+        {
+            "title": "Won't Go Quietly",
+            "artist": ["Example"],
+            "spotify": "https://open.spotify.com/track/5aNF9DRTzNXt5uRv141mQ6",
+            "youtube": "https://www.youtube.com/watch?v=UOM8egI348I"
+        }
+        ]
+    },
+    { "Week 5": [
+        {
+            "title": "Libertine",
+            "artist": ["Kate Ryan"],
+            "spotify": "https://open.spotify.com/artist/59oA5WbbQvomJz2BuRG071",
+            "youtube": "https://www.youtube.com/watch?v=q3lX2p_Uy9I"
+        },
+        {
+            "title": "Kite",
+            "artist": ["Benjamin Ingrosso", "Olly Alexander"],
+            "spotify": "https://open.spotify.com/track/72VH13PSrYh963lzB5NzG4",
+            "youtube": "https://www.youtube.com/watch?v=nEjLFpU2pJ4"
+        },
+        {
+            "title": "Too Much",
+            "artist": ["Dove Cameron"],
+            "spotify": "https://open.spotify.com/track/5F6E3zZ3s1h0eJcFz9Zp0Q",
+            "youtube": "https://www.youtube.com/watch?v=oR8Qe6lX7vc"
+        },
+        {
+            "title": "All Too Well (10 Minute Version)",
+            "artist": ["Taylor Swift"],
+            "spotify": "https://open.spotify.com/track/5yOdZdVkh31ZKLSNf45Toh",
+            "youtube": "https://www.youtube.com/watch?v=LNspdr44k0w"
+        },
+        {
+            "title": "On My Wave",
+            "artist": ["Keiynan Lonsdale"],
+            "spotify": "https://open.spotify.com/track/5L95vS64rG1YMIFm1hLjyZ",
+            "youtube": "https://www.youtube.com/watch?v=ldk2pLyVZ4c"
+        },
+        {
+            "title": "twilight zone",
+            "artist": ["Ariana Grande"],
+            "spotify": "https://open.spotify.com/track/3sNVsP50132BTNlImLx70i",
+            "youtube": "https://www.youtube.com/watch?v=LO2RPDZkY88"
+        },
+        {
+            "title": "Vulnerable",
+            "artist": ["Selena Gomez"],
+            "spotify": "https://open.spotify.com/track/5aNF9DRTzNXt5uRv141mQ6",
+            "youtube": "https://www.youtube.com/watch?v=UOM8egI348I"
+        }
+        ]
+    },
+    { "Week 6": [
+        {
+            "title": "Satellite",
+            "artist": ["Bebe Rexha", "Snoop Dogg"],
+            "spotify": "https://open.spotify.com/artist/59oA5WbbQvomJz2BuRG071",
+            "youtube": "https://www.youtube.com/watch?v=q3lX2p_Uy9I"
+        },
+        {
+            "title": "Memory Lane",
+            "artist": ["Zara Larsson"],
+            "spotify": "https://open.spotify.com/track/72VH13PSrYh963lzB5NzG4",
+            "youtube": "https://www.youtube.com/watch?v=nEjLFpU2pJ4"
+        },
+        {
+            "title": "Duck Eat Duck World",
+            "artist": ["Destroy Boys"],
+            "spotify": "https://open.spotify.com/track/5F6E3zZ3s1h0eJcFz9Zp0Q",
+            "youtube": "https://www.youtube.com/watch?v=oR8Qe6lX7vc"
+        },
+        {
+            "title": "House On Fire",
+            "artist": ["Mimi Webb"],
+            "spotify": "https://open.spotify.com/track/5yOdZdVkh31ZKLSNf45Toh",
+            "youtube": "https://www.youtube.com/watch?v=LNspdr44k0w"
+        },
+        {
+            "title": "back to friends",
+            "artist": ["sombr"],
+            "spotify": "https://open.spotify.com/track/5L95vS64rG1YMIFm1hLjyZ",
+            "youtube": "https://www.youtube.com/watch?v=ldk2pLyVZ4c"
+        },
+        {
+            "title": "Dreamcatcher",
+            "artist": ["Edlan", "Ella Noël"],
+            "spotify": "https://open.spotify.com/track/3sNVsP50132BTNlImLx70i",
+            "youtube": "https://www.youtube.com/watch?v=LO2RPDZkY88"
+        },
+        {
+            "title": "Lullaby",
+            "artist": ["R3HAB", "Mike Williams"],
+            "spotify": "https://open.spotify.com/track/5aNF9DRTzNXt5uRv141mQ6",
+            "youtube": "https://www.youtube.com/watch?v=UOM8egI348I"
+        }
+        ]
+    },
+    { "Week 7": [
+        {
+            "title": "Release Me",
+            "artist": ["Agnes"],
+            "spotify": "https://open.spotify.com/artist/59oA5WbbQvomJz2BuRG071",
+            "youtube": "https://www.youtube.com/watch?v=q3lX2p_Uy9I"
+        },
+        {
+            "title": "What the Hell",
+            "artist": ["Avril Lavigne"],
+            "spotify": "https://open.spotify.com/track/72VH13PSrYh963lzB5NzG4",
+            "youtube": "https://www.youtube.com/watch?v=nEjLFpU2pJ4"
+        },
+        {
+            "title": "Tiny Moves",
+            "artist": ["Bleachers"],
+            "spotify": "https://open.spotify.com/track/5F6E3zZ3s1h0eJcFz9Zp0Q",
+            "youtube": "https://www.youtube.com/watch?v=oR8Qe6lX7vc"
+        },
+        {
+            "title": "Delilah",
+            "artist": ["Fred again..", "Delilah Montagu"],
+            "spotify": "https://open.spotify.com/track/5yOdZdVkh31ZKLSNf45Toh",
+            "youtube": "https://www.youtube.com/watch?v=LNspdr44k0w"
+        },
+        {
+            "title": "Priceless",
+            "artist": ["Maroon 5", "LISA"],
+            "spotify": "https://open.spotify.com/track/5L95vS64rG1YMIFm1hLjyZ",
+            "youtube": "https://www.youtube.com/watch?v=ldk2pLyVZ4c"
+        },
+        {
+            "title": "Years In The Making",
+            "artist": ["Arkells"],
+            "spotify": "https://open.spotify.com/track/3sNVsP50132BTNlImLx70i",
+            "youtube": "https://www.youtube.com/watch?v=LO2RPDZkY88"
+        },
+        {
+            "title": "Return of the Mack",
+            "artist": ["Chasner", "Rob Adans", "AFROJACK"],
+            "spotify": "https://open.spotify.com/track/5aNF9DRTzNXt5uRv141mQ6",
+            "youtube": "https://www.youtube.com/watch?v=UOM8egI348I"
+        }
+        ]
+    },
+    { "Extravaganza Week 1": [
+        {
+            "title": "The Hype",
+            "artist": ["Sigrid"],
+            "spotify": "https://open.spotify.com/artist/59oA5WbbQvomJz2BuRG071",
+            "youtube": "https://www.youtube.com/watch?v=q3lX2p_Uy9I"
+        },
+        {
+            "title": "Jungle",
+            "artist": ["Drew Sycamore"],
+            "spotify": "https://open.spotify.com/track/72VH13PSrYh963lzB5NzG4",
+            "youtube": "https://www.youtube.com/watch?v=nEjLFpU2pJ4"
+        },
+        {
+            "title": "Libertine",
+            "artist": ["Kate Ryan"],
+            "spotify": "https://open.spotify.com/track/5F6E3zZ3s1h0eJcFz9Zp0Q",
+            "youtube": "https://www.youtube.com/watch?v=oR8Qe6lX7vc"
+        },
+        {
+            "title": "Kickstart My Heart",
+            "artist": ["Mötley Crüe"],
+            "spotify": "https://open.spotify.com/track/5yOdZdVkh31ZKLSNf45Toh",
+            "youtube": "https://www.youtube.com/watch?v=LNspdr44k0w"
+        },
+        {
+            "title": "Release Me",
+            "artist": ["Agnes"],
+            "spotify": "https://open.spotify.com/track/5L95vS64rG1YMIFm1hLjyZ",
+            "youtube": "https://www.youtube.com/watch?v=ldk2pLyVZ4c"
+        },
+        {
+            "title": "Cheating",
+            "artist": ["John Newman"],
+            "spotify": "https://open.spotify.com/track/3sNVsP50132BTNlImLx70i",
+            "youtube": "https://www.youtube.com/watch?v=LO2RPDZkY88"
+        },
+        {
+            "title": "Satellite",
+            "artist": ["Bebe Rexha", "Snoop Dogg"],
+            "spotify": "https://open.spotify.com/track/5aNF9DRTzNXt5uRv141mQ6",
+            "youtube": "https://www.youtube.com/watch?v=UOM8egI348I"
+        }
+        ]
+    },
+    { "Week 8": [
+        {
+            "title": "West Ten",
+            "artist": ["AJ Tracey", "Mabel"],
+            "spotify": "https://open.spotify.com/artist/59oA5WbbQvomJz2BuRG071",
+            "youtube": "https://www.youtube.com/watch?v=q3lX2p_Uy9I"
+        },
+        {
+            "title": "A Neverending Dream",
+            "artist": ["X-Perience"],
+            "spotify": "https://open.spotify.com/track/72VH13PSrYh963lzB5NzG4",
+            "youtube": "https://www.youtube.com/watch?v=nEjLFpU2pJ4"
+        },
+        {
+            "title": "Bad Girl",
+            "artist": ["Daya"],
+            "spotify": "https://open.spotify.com/track/5F6E3zZ3s1h0eJcFz9Zp0Q",
+            "youtube": "https://www.youtube.com/watch?v=oR8Qe6lX7vc"
+        },
+        {
+            "title": "Birch Tree",
+            "artist": ["Foals"],
+            "spotify": "https://open.spotify.com/track/5yOdZdVkh31ZKLSNf45Toh",
+            "youtube": "https://www.youtube.com/watch?v=LNspdr44k0w"
+        },
+        {
+            "title": "Silence",
+            "artist": ["Marshmello", "Khalid"],
+            "spotify": "https://open.spotify.com/track/5L95vS64rG1YMIFm1hLjyZ",
+            "youtube": "https://www.youtube.com/watch?v=ldk2pLyVZ4c"
+        },
+        {
+            "title": "Homesick",
+            "artist": ["Dua Lipa"],
+            "spotify": "https://open.spotify.com/track/3sNVsP50132BTNlImLx70i",
+            "youtube": "https://www.youtube.com/watch?v=LO2RPDZkY88"
+        },
+        {
+            "title": "DESIRE",
+            "artist": ["NOISY"],
+            "spotify": "https://open.spotify.com/track/5aNF9DRTzNXt5uRv141mQ6",
+            "youtube": "https://www.youtube.com/watch?v=UOM8egI348I"
+        }
+        ]
+    },
+    { "Week 9": [
+        {
+            "title": "What You're Made Of",
+            "artist": ["Lindsey Stirling", "Kiesza"],
+            "spotify": "https://open.spotify.com/artist/59oA5WbbQvomJz2BuRG071",
+            "youtube": "https://www.youtube.com/watch?v=q3lX2p_Uy9I"
+        },
+        {
+            "title": "Typhoons",
+            "artist": ["Royal Blood"],
+            "spotify": "https://open.spotify.com/track/72VH13PSrYh963lzB5NzG4",
+            "youtube": "https://www.youtube.com/watch?v=nEjLFpU2pJ4"
+        },
+        {
+            "title": "Hits Different",
+            "artist": ["Taylor Swift"],
+            "spotify": "https://open.spotify.com/track/5F6E3zZ3s1h0eJcFz9Zp0Q",
+            "youtube": "https://www.youtube.com/watch?v=oR8Qe6lX7vc"
+        },
+        {
+            "title": "You Need Me Now",
+            "artist": ["girl in red", "Sabrina Carpenter"],
+            "spotify": "https://open.spotify.com/track/5yOdZdVkh31ZKLSNf45Toh",
+            "youtube": "https://www.youtube.com/watch?v=LNspdr44k0w"
+        },
+        {
+            "title": "I Know A Place",
+            "artist": ["MUNA"],
+            "spotify": "https://open.spotify.com/track/5L95vS64rG1YMIFm1hLjyZ",
+            "youtube": "https://www.youtube.com/watch?v=ldk2pLyVZ4c"
+        },
+        {
+            "title": "East Coast",
+            "artist": ["Indy"],
+            "spotify": "https://open.spotify.com/track/3sNVsP50132BTNlImLx70i",
+            "youtube": "https://www.youtube.com/watch?v=LO2RPDZkY88"
+        },
+        {
+            "title": "One Mississippi",
+            "artist": ["Zara Larsson"],
+            "spotify": "https://open.spotify.com/track/5aNF9DRTzNXt5uRv141mQ6",
+            "youtube": "https://www.youtube.com/watch?v=UOM8egI348I"
+        }
+        ]
+    },
+    { "Week 10": [
+        {
+            "title": "If You Were a Woman",
+            "artist": ["Bonnie Tyler"],
+            "spotify": "https://open.spotify.com/artist/59oA5WbbQvomJz2BuRG071",
+            "youtube": "https://www.youtube.com/watch?v=q3lX2p_Uy9I"
+        },
+        {
+            "title": "Only The Young",
+            "artist": ["Taylor Swift"],
+            "spotify": "https://open.spotify.com/track/72VH13PSrYh963lzB5NzG4",
+            "youtube": "https://www.youtube.com/watch?v=nEjLFpU2pJ4"
+        },
+        {
+            "title": "My Name Is Thunder",
+            "artist": ["The Bloody Beetroots"],
+            "spotify": "https://open.spotify.com/track/5F6E3zZ3s1h0eJcFz9Zp0Q",
+            "youtube": "https://www.youtube.com/watch?v=oR8Qe6lX7vc"
+        },
+        {
+            "title": "undressed",
+            "artist": ["sombr"],
+            "spotify": "https://open.spotify.com/track/5yOdZdVkh31ZKLSNf45Toh",
+            "youtube": "https://www.youtube.com/watch?v=LNspdr44k0w"
+        },
+        {
+            "title": "SUPERSCAR",
+            "artist": ["ADÉLA"],
+            "spotify": "https://open.spotify.com/track/5L95vS64rG1YMIFm1hLjyZ",
+            "youtube": "https://www.youtube.com/watch?v=ldk2pLyVZ4c"
+        },
+        {
+            "title": "Mess It Up",
+            "artist": ["Gracie Abrams"],
+            "spotify": "https://open.spotify.com/track/3sNVsP50132BTNlImLx70i",
+            "youtube": "https://www.youtube.com/watch?v=LO2RPDZkY88"
+        },
+        {
+            "title": "What Was That",
+            "artist": ["Lorde"],
+            "spotify": "https://open.spotify.com/track/5aNF9DRTzNXt5uRv141mQ6",
+            "youtube": "https://www.youtube.com/watch?v=UOM8egI348I"
+        }
+        ]
+    },
+    { "Week 11": [
+        {
+            "title": "A Driver Saved My Night",
+            "artist": ["Sigrid"],
+            "spotify": "https://open.spotify.com/track/5F6E3zZ3s1h0eJcFz9Zp0Q",
+            "youtube": "https://www.youtube.com/watch?v=oR8Qe6lX7vc"
+        },
+        {
+            "title": "End Game",
+            "artist": ["Taylor Swift", "Ed Sheeran", "Future"],
+            "spotify": "https://open.spotify.com/artist/59oA5WbbQvomJz2BuRG071",
+            "youtube": "https://www.youtube.com/watch?v=q3lX2p_Uy9I"
+        },
+        {
+            "title": "ocean eyes",
+            "artist": ["Billie Eilish"],
+            "spotify": "https://open.spotify.com/track/5yOdZdVkh31ZKLSNf45Toh",
+            "youtube": "https://www.youtube.com/watch?v=LNspdr44k0w"
+        },
+        {
+            "title": "Don't Take The Money",
+            "artist": ["Bleachers"],
+            "spotify": "https://open.spotify.com/track/72VH13PSrYh963lzB5NzG4",
+            "youtube": "https://www.youtube.com/watch?v=nEjLFpU2pJ4"
+        },
+        {
+            "title": "Hit Or Miss",
+            "artist": ["New Found Glory"],
+            "spotify": "https://open.spotify.com/track/5aNF9DRTzNXt5uRv141mQ6",
+            "youtube": "https://www.youtube.com/watch?v=UOM8egI348I"
+        },
+        {
+            "title": "Sit Still, Look Pretty",
+            "artist": ["Daya"],
+            "spotify": "https://open.spotify.com/track/5L95vS64rG1YMIFm1hLjyZ",
+            "youtube": "https://www.youtube.com/watch?v=ldk2pLyVZ4c"
+        },
+        {
+            "title": "Szavakon túl",
+            "artist": ["Groovehouse"],
+            "spotify": "https://open.spotify.com/track/3sNVsP50132BTNlImLx70i",
+            "youtube": "https://www.youtube.com/watch?v=LO2RPDZkY88"
+        }
+        ]
+    }
 ]

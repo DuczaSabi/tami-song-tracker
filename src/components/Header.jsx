@@ -10,7 +10,6 @@ export default function Header({ changeWeek }) {
             const handleChange = (event) => changeWeek(event.target.value);
             dropdown.addEventListener("change", handleChange);
 
-            // Cleanup the event listener when the component unmounts
             return () => {
                 dropdown.removeEventListener("change", handleChange);
             };
@@ -22,7 +21,7 @@ export default function Header({ changeWeek }) {
             <label htmlFor="weekDropdown">Select a week</label>
             <select id="weekDropdown" name="options">
                 {data.map((weekData, index) => {
-                    const weekKey = Object.keys(weekData)[0]; // Get the key for the current week
+                    const weekKey = Object.keys(weekData)[0];
                     return (
                         <option key={index} value={weekKey}>
                             {weekKey}
@@ -30,6 +29,7 @@ export default function Header({ changeWeek }) {
                     );
                 })}
             </select>
+            {/* <img src={`${process.env.PUBLIC_URL}/icons/Stats.png`} className="stats-icon"/> */}
         </header>
     );
 }
