@@ -46,6 +46,14 @@ header > .stats-icon {
   cursor: pointer;
 }
 
+header > .player-icon {
+  width: 5vh;
+  position: fixed;
+  top: 4vh;
+  left: 3vh;
+  cursor: pointer;
+}
+
 /* --- SongList --- */
 .song-list {
   display: inline-block;
