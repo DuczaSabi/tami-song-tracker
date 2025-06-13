@@ -67,6 +67,12 @@ header > .player-icon {
   align-items: center;
   justify-content: space-around;
   margin: 1vh 0;
+  transition: ease-in-out 0.2s;
+}
+
+.song-list .song:hover {
+  cursor: pointer;
+  transform: scale(0.9);
 }
 
 .song-list img {
@@ -92,3 +98,4 @@ header > .player-icon {
   margin-top: 0.5vh;
   opacity: 0.6;
 }
+

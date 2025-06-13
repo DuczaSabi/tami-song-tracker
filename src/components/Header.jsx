@@ -22,7 +22,7 @@ export default function Header({ setWeek, player, setPlayer }) {
 
     return (
         <header ref={headerRef}>
-            {/* <img src={`${process.env.PUBLIC_URL}/icons/${player}.png`} className="player-icon" onClick={changePlayer}/> */}
+            <img src={`${process.env.PUBLIC_URL}/icons/${player}.png`} className="player-icon" onClick={changePlayer}/>
             <label htmlFor="weekDropdown">Select a week</label>
             <select id="weekDropdown" name="options">
                 {data.map((weekData, index) => {
