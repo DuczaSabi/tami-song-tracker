@@ -583,5 +583,140 @@
             "youtube": "https://music.youtube.com/watch?v=cU3XXYWmdcI&si=EL5r5YHvdukybJq2"
         }
         ]
+    },
+    { "Week 13": [
+        {
+            "title": "Hate Being Alone",
+            "artist": ["Dagny"],
+            "spotify": "https://open.spotify.com/track/0EI0mGSnfF24o2QiczQXYA?si=5f6877ed396a4a85",
+            "youtube": "https://music.youtube.com/watch?v=xYDtcdmpbSk&si=idnjxTgRE9KidqtY"
+        },
+        {
+            "title": "Pillow In My Arms",
+            "artist": ["Griff"],
+            "spotify": "https://open.spotify.com/track/0ZS8Ls8x5DZlePoOUbsOML?si=35b3f25b8fdb4e3c",
+            "youtube": "https://music.youtube.com/watch?v=huoup0J55Hg&si=5ZDwsISXqufAEpLD"
+        },
+        {
+            "title": "West Coast",
+            "artist": ["FIDLAR"],
+            "spotify": "https://open.spotify.com/track/6ngaOZmoYDSOILK4XfdJBW?si=6a5b730664554d6a",
+            "youtube": "https://music.youtube.com/watch?v=egKjazOI5qA&si=oSWBSvCMdLdgNjhc"
+        },
+        {
+            "title": "Intergalactic Bound",
+            "artist": ["Yunosuke", "CircusP", "Hatsune Miku"],
+            "spotify": "https://open.spotify.com/track/25tNraNmMNwSEccFVcXxnu?si=371e17dc760644a5",
+            "youtube": "https://music.youtube.com/watch?v=NG9QZALd1sI&si=dSdSsxfYbv7TNY2_"
+        },
+        {
+            "title": "Better Than Revenge",
+            "artist": ["Taylor Swift"],
+            "spotify": "https://open.spotify.com/track/0NwGC0v03ysCYINtg6ns58?si=30eb4398433145e4",
+            "youtube": "https://music.youtube.com/watch?v=MSWhTUMH3pM&si=OdTNkbV6l2daRtjd"
+        },
+        {
+            "title": "Guerilla Radio",
+            "artist": ["Rage Against The Machine"],
+            "spotify": "https://open.spotify.com/track/1wsRitfRRtWyEapl0q22o8?si=9b09d9a6a27f4894",
+            "youtube": "https://music.youtube.com/watch?v=FFMyMwjWqXs&si=749gfrSB2ydS2veE"
+        },
+        {
+            "title": "Connect To Consume",
+            "artist": ["A. Swayze & The Ghosts"],
+            "spotify": "https://open.spotify.com/track/4AedKkOIuagtOQ6uvxWfiN?si=25090f785efd4991",
+            "youtube": "https://music.youtube.com/watch?v=CvXsOKPyYqw&si=rYLFI8Xd8hYBTcEW"
+        }
+        ]
+    },
+    { "Week 14": [
+        {
+            "title": "Got Love",
+            "artist": ["Tove Lo"],
+            "spotify": "https://open.spotify.com/track/6qh4p4QRz8pq03wIt3V9ta?si=1e398c1e9fdf43aa",
+            "youtube": "https://music.youtube.com/watch?v=Oc7o4-VHm-8&si=Vigadncm4Eo6k5Fm"
+        },
+        {
+            "title": "Bomb Drop",
+            "artist": ["Less Than Jake"],
+            "spotify": "https://open.spotify.com/track/2gg4fB1VWqTwO5RkwezryJ?si=8a575346057c4174",
+            "youtube": "https://music.youtube.com/watch?v=C74qEqNPJbk&si=GXAOORry6d-Dow5w"
+        },
+        {
+            "title": "Eyes Open",
+            "artist": ["Taylor Swift"],
+            "spotify": "https://open.spotify.com/track/2NIBaWXdjaTDmytjjwbEfP?si=56f33924068a4b4a",
+            "youtube": "https://music.youtube.com/watch?v=n3fnZBSnlgw&si=YxM5N5wS7jyf_4TT"
+        },
+        {
+            "title": "Roze (forgive)",
+            "artist": ["Fred again..", "I Am Roze"],
+            "spotify": "https://open.spotify.com/track/4iWbvTeormWby3QX0nO85q?si=323cebffe8894b7b",
+            "youtube": "https://music.youtube.com/watch?v=vfCmuyxnEUs&si=rROybNy5Pf8RolBK"
+        },
+        {
+            "title": "Ghost Rule",
+            "artist": ["DECO*27", "Hatsune Miku"],
+            "spotify": "https://open.spotify.com/track/1OAp6qN5KmoGUQ2edICKsC?si=e767dc3d9d1c4e85",
+            "youtube": "https://music.youtube.com/watch?v=WJDDhH9o7e4&si=YfQgvkiXi20bNg3j"
+        },
+        {
+            "title": "She's Famous Now",
+            "artist": ["Reel Big Fish"],
+            "spotify": "https://open.spotify.com/track/3acefyyfBIV0ed0n4WAJea?si=34a22e8f554846b4",
+            "youtube": "https://music.youtube.com/watch?v=2HHDG9Z0L9g&si=h4xQ-UWq2vYzqT0Q"
+        },
+        {
+            "title": "Changed The Way You Kiss Me",
+            "artist": ["Example"],
+            "spotify": "https://open.spotify.com/track/5on3XiVxvqu4Jtgq3TtaQX?si=794a1d64db734569",
+            "youtube": "https://music.youtube.com/watch?v=zALdGTwhcgk&si=8ZyfnG1Z6S7_GHjZ"
+        }
+        ]
+    },
+    { "Extravaganza Week 2": [
+        {
+            "title": "If You Were a Woman",
+            "artist": ["Bonnie Tyler"],
+            "spotify": "https://open.spotify.com/track/5NBPV2NQTepcZy1fD2KI43?si=a1196b74d3fd45ca",
+            "youtube": "https://music.youtube.com/watch?v=AqQF4z-wVaI&si=Ynecy-SpHq1bYddn"
+        },
+        {
+            "title": "West Ten",
+            "artist": ["AJ Tracey", "Mabel"],
+            "spotify": "https://open.spotify.com/track/1kNUlYIquh3WpllRoTCRJR?si=9b6d2d3d4f714189",
+            "youtube": "https://music.youtube.com/watch?v=vw2oJCj43eE&si=CofGfqtEjLsNLETU"
+        },
+        {
+            "title": "A Driver Saved My Night",
+            "artist": ["Sigrid"],
+            "spotify": "https://open.spotify.com/track/4e64oQwdgwUUADrC26DCdI?si=6ccabe68102d463f",
+            "youtube": "https://music.youtube.com/watch?v=M_UmDzk7juc&si=-doAw1KHJggOPwCu"
+        },
+        {
+            "title": "Hold the Line",
+            "artist": ["TOTO"],
+            "spotify": "https://open.spotify.com/track/4aVuWgvD0X63hcOCnZtNFA?si=c120996b57b94ffd",
+            "youtube": "https://music.youtube.com/watch?v=ZP69PLBqFUo&si=7i-3Cs5zNgEh6BdJ"
+        },
+        {
+            "title": "Hate Being Alone",
+            "artist": ["Dagny"],
+            "spotify": "https://open.spotify.com/track/0EI0mGSnfF24o2QiczQXYA?si=5f6877ed396a4a85",
+            "youtube": "https://music.youtube.com/watch?v=xYDtcdmpbSk&si=idnjxTgRE9KidqtY"
+        },
+        {
+            "title": "Got Love",
+            "artist": ["Tove Lo"],
+            "spotify": "https://open.spotify.com/track/6qh4p4QRz8pq03wIt3V9ta?si=1e398c1e9fdf43aa",
+            "youtube": "https://music.youtube.com/watch?v=Oc7o4-VHm-8&si=Vigadncm4Eo6k5Fm"
+        },
+        {
+            "title": "What You're Made Of",
+            "artist": ["Lindsey Stirling", "Kiesza"],
+            "spotify": "https://open.spotify.com/track/7zCeOOhtMzxlBRdVJ4KwgG?si=393116970e8d4730",
+            "youtube": "https://music.youtube.com/watch?v=A-PTcpUu75g&si=yEgpRTZCt24xct9I"
+        }
+        ]
     }
 ]
